@@ -1,7 +1,5 @@
-import 'dart:html' as html;
-
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:portfolio/constants/strings.dart';
 import 'package:portfolio/constants/text_styles.dart';
 import 'package:portfolio/ui/pages/about.dart';
@@ -220,7 +218,8 @@ class _HomePageState extends State<HomePage> {
             style: TextStyles.menu_item,
           ),
           onPressed: () {
-            html.window.open(link, title);
+            // For web, use url_launcher or similar package. Placeholder for cross-platform:
+            // launch(link);
           },
         ),
       ),

@@ -8,6 +8,8 @@ environment:
   sdk: '>=2.2.0 <3.0.0'
 
 dependencies:
+  flutter:
+    sdk: flutter
   flutter_web: any
   flutter_web_ui: any
 
@@ -44,3 +46,5 @@ dependency_overrides:
 
 flutter:
   uses-material-design: true
+
+flutter run
