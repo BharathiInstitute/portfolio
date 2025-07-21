@@ -46,5 +46,3 @@ dependency_overrides:
 
 flutter:
   uses-material-design: true
-
-flutter run
